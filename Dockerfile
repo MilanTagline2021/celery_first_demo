@@ -1,9 +1,7 @@
 # pull official base image
-FROM python:3.9.5-slim-buster
-
+FROM python:3.8
 # set work directory
-WORKDIR /usr/src/app
-
+WORKDIR /usr/src/
 # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
